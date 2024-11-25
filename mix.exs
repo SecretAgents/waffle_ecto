@@ -51,7 +51,7 @@ defmodule Waffle.Ecto.Mixfile do
 
   defp deps do
     [
-      {:waffle, "~> 1.0"},
+      {:waffle, git: "https://github.com/SecretAgents/waffle.git"},
       {:ecto, "~> 3.0"},
       {:mock, "~> 0.3", only: :test},
       {:ex_doc, ">= 0.23.0", only: :dev},
